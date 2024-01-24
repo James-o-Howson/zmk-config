@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: howson
+      url-base: https://github.com/James-o-Howson
   projects:
     - name: zmk
-      remote: urob
+      remote: howson
       revision: main
       import: app/west.yml
   self:
